@@ -1,0 +1,60 @@
+a{
+  color: black !important;
+}
+
+a:hover{
+  text-decoration: underline !important;
+}
+
+.bg-green{
+  background-color: #465846;
+}
+
+.bg-cream{
+  background-color: #C69774;
+}
+
+body{
+  font-family: "playfair" !important;
+  color: black !important;
+}
+
+.font{
+  font-family: "playfair";
+}
+
+@font-face {
+  font-family: "playfair";
+  src: url("PlayfairDisplay-VariableFont_wght.woff2");
+}
+
+@font-face {
+  font-family: "playfair-italic";
+  src: url("PlayfairDisplay-Italic-VariableFont_wght.woff2");
+}
+
+
+h1{
+  font-size: 30px !important;
+}
+
+header{
+  font-family: "playfair";
+  font-size: 40px;
+}
+
+
+#subtitle{
+  font-size: 28px;
+  margin-top: -2%;
+}
+
+.text-box{
+  padding-left: 3% ;
+  padding-right: 3% ;
+  margin-top: 1% ;
+}
+
+
+
+
