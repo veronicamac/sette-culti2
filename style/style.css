@@ -1,0 +1,111 @@
+a{
+  color: black !important;
+}
+
+.bg-green{
+  background-color: #465846; 
+}
+
+.bg-grey{
+  background-color: #ECF4D6;
+}
+
+.bg-lightgreen{
+  background-color: #b9d3a6;
+}
+
+.bg-peach{
+  background-color: #FFF5C2;
+}
+
+body{
+  font-family: "playfair" !important;
+  color: black;
+}
+
+.breadcrumb{
+  background-color: transparent !important;
+}
+
+.btn-link{
+  color:black !important;
+}
+
+.card-body{
+  background-color: #FFF5C2 !important;
+}
+
+.card-header{
+  background-color: #b9d3a6 !important;
+}
+
+#carousel-img{
+  filter: opacity(70%);
+  filter:contrast(60%) ;
+}
+
+.container {
+  max-width: 60% !important;
+}
+
+.container-fluid{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+@font-face {
+  font-family: "playfair";
+  src: url("PlayfairDisplay-VariableFont_wght.woff2");
+ 
+}
+
+@font-face {
+  font-family: "playfair-italic";
+  src: url("PlayfairDisplay-Italic-VariableFont_wght.woff2");
+}
+
+footer > #subtitle{
+  font-size: 16px;
+  margin-top: -1%;
+}
+
+h1{
+  font-size: 30px !important;
+}
+
+header{
+  font-family: "playfair";
+  font-size: 40px;
+}
+
+.light-link a{
+  color: #f8f9fa !important;
+}
+
+
+p a:link{
+  text-decoration: underline !important;
+}
+
+p a:hover{
+ text-decoration: none !important;
+}
+
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#subtitle{
+  font-size: 28px;
+  margin-top: -2%;
+}
+
+
+
+
+
+
+
+
+
