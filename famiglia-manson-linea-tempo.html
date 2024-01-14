@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+         crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+         crossorigin=""></script>
+        
+		<title>Exoterica</title>
+        <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+		
+	</head>
+	<header class="bg-dark text-light py-2">
+		<div class="text-center">
+			<p>Exoterica</p><p id="subtitle">Sette e culti nell'età contemporanea</p></header>
+		</div>
+	<body class="container-fluid">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <section class="row">
+            <nav class="col-md-2 pl-0">
+                <div class="accordion ml-0" id="accordion">
+                    <div class="card">
+                    <div class="card-header bg-lightgreen" id="headingOne">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left pl-0 " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Nome della setta
+                        </button>
+                        </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>- <a href="setteA-Z1.html">Dalla A alla Z</a></p>
+                            <p>- <a href="setteZ-A1.html">Dalla Z alla A</a></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header bg-lightgreen" id="headingTwo">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left pl-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nome del leader
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>- <a href="leaderA-Z1.html">Dalla A alla Z</a></p>
+                            <p>- <a href="leaderZ-A1.html">Dalla Z alla A</a></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header bg-lightgreen" id="headingThree">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left pl-0 " type="button">
+                            <a href="linea-tempo.html">Linea Temporale</a>
+                        </button>
+                        </h2>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header current_page" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left pl-0" type="button">
+                                <a href="mappa.html">Mappa</a>
+                            </button>
+                        </h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-lightgreen" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left pl-0" type="button">
+                            <a href="tematiche.html">Tematiche</a>
+                            </button>
+                        </h2>
+                        </div>
+                    </div>
+                </div>     
+            </nav>
+            <div class="col-md-10">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="linea-tempo.html">Linea Temporale</a></li>
+                        <li class="breadcrumb-item active">Famiglia Manson</li>
+                    </ol>
+                </nav>
+                <div>
+                    <h1 class="text-center">La Famiglia Manson</h1>
+                    <p class="shadow-text">Tempo di lettura: 8 minuti </p>
+                    <h3>Indice</h3>
+                    <ul>
+                        <li><a href="#Introduzione">Introduzione</a></li>
+                        <li><a href="#Storia">Storia</a></li>
+                        <li><a href="#Omicidi">Omicidi</a></li>
+                        <li><a href="#Metadati">Metadati</a></li>
+                        <li><a href="#Curiosita">Curiosità</a></li>
+
+                    </ul>
+                    <h4 id="Introduzione">Introduzione</h4>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <p>La <strong>Famiglia Manson</strong>, anche conosciuta con il nome inglese <strong>Manson Family</strong> o semplicemente <strong>The Family</strong>, fu una <strong>comunità hippie criminale</strong> del deserto della California e una setta fondata nei tardi anni sessanta. Guidato da <strong>Charles Manson</strong>, il gruppo era formato da circa <strong> 100 adepti</strong> che vivevano una vita non convenzionale e che utilizzavano abitualmente <strong>allucinogeni</strong> . Molti dei fedeli erano giovani donne della classe media, radicalizzatesi negli insegnamenti di Manson e provenienti dalle culture del <strong>flower power</strong> e dal <strong>movimento delle comuni</strong>.</p>
+                            <p>Quando Manson uscì dal carcere nel 1967, la "Famiglia" si formò a <strong>San Francisco</strong> e più tardi si spostò in un ranch della San Fernando Valley. I seguaci di Manson includevano anche una piccola, devota unità di giovani donne e ragazze che credevano che Manson fosse una <strong>manifestazione di Cristo</strong> e nelle sue profezie sulla <strong>guerra razziale</strong>. 
+                            Questo gruppo assurse alle cronache nazionali e internazionali per il cruento <strong> omicidio di Sharon Tate</strong> e quattro suoi ospiti avvenuto il 9 agosto 1969 a 10050 Cielo Drive per mano di Tex Watson e altri tre membri della Family (Susan Atkins, Leslie Van Houten e Patricia Krenwinkel), di cui Manson fu riconosciuto come mandante. Il gruppo fu poi riconosciuto responsabile di altri delitti, aggressioni e crimini di diverso tipo.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <img width="256" title="California Department of Corrections and Rehabilitation, Public domain, via Wikimedia Commons"alt="Manson nel 1968" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Manson1968.jpg/256px-Manson1968.jpg">
+                            <p class="shadow-text didascalia">Foto segnaletica di Manson del 1968</p>
+                        </div>
+                    </div>
+                    
+                    <h4 id="Storia">Storia</h4>
+                    <p>La Family ebbe origine nell'<strong>aprile del 1967</strong> quando Manson, scarcerato poco meno di un mese prima, era giunto a San Francisco in piena rivoluzione hippie, e aveva conosciuto una ragazza ventitreenne, <strong>Mary Brunner</strong>, di professione bibliotecaria presso la Università di Berkeley, finendo poi per stabilirsi da lei nel quartiere di Haight-Ashbury. Manson conobbe poi altre ragazze che si unirono ai suoi vagabondaggi e che spinse all'<strong>uso di droghe allucinogene</strong> e al <strong>sesso libero</strong>, sfruttando il proprio carisma e la sua abilità nel suonare la chitarra e nel comporre canzoni, arrivando ad autoproclamarsi <strong>"Figlio dell'Uomo"</strong> (Man-Son) e <strong>profeta di una nuova religione</strong>.
+                        Per fare fronte all'aumento di seguaci, Manson acquistò un vecchio bus scolastico, che dipinse di nero e usò come base mobile per scarrozzare tutta la sua "Family" in lungo e in largo per la California.</p>
+                    <p>Durante il <strong>biennio 1968/1969</strong>, furono circa un centinaio le persone che, per un periodo più o meno lungo, si affiliarono alla Manson Family, sebbene solo una trentina saranno coloro che seguiranno Manson fino alla fine, e una decina di loro saranno condannati successivamente a lunghi periodi detentivi per i vari crimini commessi.</p> 
+                    <p>Gli eventi che culminarono negli omicidi dell'agosto 1969 ebbero inizio nella primavera del 1968, quando <strong>Dennis Wilson dei Beach Boys</strong> diede un passaggio a due ragazze appartenenti al gruppo di Manson che stavano facendo l'autostop e le portò a casa sua a Pacific Palisades per trascorrere insieme qualche ora, per poi uscire lasciandole lì a dormire. Ritornando a casa nelle prime ore del mattino dopo una seduta di registrazione in studio, trovò Manson che lo salutò come niente fosse. Dentro casa, Wilson scoprì altri dodici individui, per la maggior parte giovani donne.
+                    Wilson pagò anche lo studio di registrazione per permettere a Manson di incidere le sue canzoni, e gli presentò alcune persone del music business per introdurlo nell'ambiente, incluso <strong>Rudi Altobelli</strong>, proprietario di una casa che aveva affittato all'attrice Sharon Tate e a suo marito Roman Polański. Quando Wilson si rese conto della pericolosità effettiva di Manson e dei suoi accoliti, decise di andarsene lui da casa, senza però "sfrattare" Manson per paura di ritorsioni. Alla fine, stancatosi della cerchia di hippie strafatti e inquietanti che lo circondavano, chiese al proprio manager di mandarli via.
+                    Il gruppo finì per stabilirsi presso lo <strong>Spahn Ranch</strong>, a nord di Los Angeles, un vecchio set cinematografico e attrazione turistica ormai fatiscente. Il posto era di proprietà dell'ottantenne George Spahn, che permise alla comunità hippie di stabilirvisi in cambio di manodopera, e sesso occasionale con alcune delle ragazze di Manson. Le ragazze si occupavano anche della sua igiene personale e di cucinare per lui.</p>
+                    <p>Nei primi giorni del <strong>novembre 1968</strong>, Manson stabilisce il quartiere generale alternativo della Family nella <strong>Valle della Morte</strong>, dove il gruppo occupa altri due ranch quasi disabitati.</p>
+                    <p>In questo periodo, Manson scoprì <strong>The White Album</strong> dei <strong>Beatles</strong>, che era stato recentemente pubblicato. Manson divenne presto ossessionato dalla band di Liverpool. Parlava di loro in toni mistici, paragonandoli ai <strong>quattro cavalieri dell'Apocalisse</strong>  e disse ai membri della Family che i Beatles erano <i>"l'anima"</i> e <i>"parte del buco nell'infinito"</i>.</p>
+                    <p>Già da qualche tempo, Charles Manson ripeteva che le <strong>tensioni razziali tra bianchi e neri</strong> stavano per raggiungere il culmine, e che i neri si sarebbero sollevati causando una <strong>guerra di ribellione</strong> che avrebbe messo a ferro e fuoco le città statunitensi. Durante una riunione tenutasi al Myers Ranch, Manson spiegò ai membri della Family seduti attorno a un fuoco, che i tumulti razziali erano stati predetti dai Beatles. Le canzoni del White Album, disse, dicevano tutto in codice. Infatti, secondo lui, il disco era diretto proprio alla Family, un gruppo di eletti da istruire e avvertire nell'imminenza del disastro causato dalla <strong>guerra razziale</strong>. Manson ribattezzò l'Apocalisse <strong>Helter Skelter</strong>, dall'omonima canzone dei Beatles, contenuta proprio nel White Album.</p>
+                    <p>A febbraio 1969, la visione di Manson era completa. La Family avrebbe composto un album le cui canzoni, subdole come quelle dei Beatles, avrebbero predetto il caos in arrivo. La divisione tra razzisti e non razzisti tra i bianchi avrebbe causato il loro annientamento da parte dei neri. Essi però, incapaci di governare, sarebbero stati guidati dagli "illuminati" membri eletti della Family, che erano riusciti a sopravvivere alla guerra nascondendosi in un profondo pozzo nella Valle della Morte.</p>
+                    <p>Nel maggio successivo, il produttore <strong>Terry Melcher</strong> si recò allo Spahn Ranch per sentire cantare Manson e le ragazze. Tornò una seconda volta poco tempo dopo, portandosi dietro un amico in possesso di uno studio di registrazione mobile, ma decise di <strong>non registrare nulla di quanto ascoltato</strong>.
+                    In giugno, Manson era ormai giunto alla conclusione che bisognava "mostrare" ai neri come dare inizio all'"Helter Skelter". La Family cominciò così ad attuare una serie di omicidi, in cui la scena del crimine era cosparsa di indizi che facevano pensare a colpevoli afroamericani, con lo scopo di innescare il panico fra i bianchi.</p>
+                    <h4 id="Omicidi">Omicidi</h4>
+                    <ul>
+                        <li><h5>Gary Hinman</h5>
+                            <p>L'insegnante di musica <strong>Gary Hinman</strong> fu assassinato per via dei soldi che, secondo Charles Manson, egli doveva alla Family. Dopo averlo ucciso, <strong>Bobby Beausoleil</strong>, membro della Family, su una parete della casa scrisse col sangue della vittima <strong>"Political Piggy"</strong> ("porcellino politico") e lasciò un'impronta della mano sinistra, simbolo delle <strong>Pantere Nere</strong>[storica organizzazione politica afroamericana degli Stati Uniti], per far attribuire a loro l'omicidio.
+                                Beausoleil fu arrestato il 6 agosto 1969, otto giorni dopo l'omicidio, dopo essere stato fermato alla guida dell'auto di Hinman. La polizia trovò l'arma del delitto nel bagagliaio. Due giorni dopo, Manson disse ai membri della Family radunati allo Spahn Ranch: <i>«Ora è giunto il tempo dell'Helter Skelter»</i> </p>
+                        </li>
+                        <li><h5>Tate-LaBianca</h5>
+                            <p>La sera dell'<strong>8 agosto 1969</strong>, Charles Manson ordinò a Tex Watson di prendere con sé Susan Atkins, Linda Kasabian e Patricia Krenwinkel (tutti membri della Family), e di recarsi a <strong>10050 Cielo Drive</strong> (dove Manson era convinto vivesse Terry Melcher) per uccidere chiunque si trovasse lì. Dopo essersi introdotti nella proprietà, i membri della Family massacrarono cinque persone: l'attrice <strong>Sharon Tate</strong> (nuova inquilina sopraggiunta a Melcher e all'ottavo mese di gravidanza), Jay Sebring, Abigail Folger, e Wojtek Frykowski, che erano in visita alla Tate; e il giovane Steven Parent, che era stato a trovare William Garretson, il custode della proprietà, per cercare di vendergli una radio sveglia Sony, e stava andandosene proprio in quel momento. Fu il primo a morire, ucciso a colpi di pistola sul vialetto d'ingresso mentre era seduto in auto.
+                                La Atkins scrisse la parola <strong>"Pig"</strong> ("maiale") con il sangue di Sharon Tate sulla porta d'ingresso della casa. Gli efferati omicidi crearono sconcerto ed ebbero risonanza a livello internazionale.</p>
+                            <p>La notte successiva, sei membri della Family, Leslie Van Houten, Steve "Clem" Grogan, e i quattro del giorno precedente, uscirono in auto insieme a Manson. Infastidito dal panico mostrato dalle vittime di Cielo Drive, Manson aveva deciso di accompagnare il gruppo <i>"per far loro vedere come andava fatto"</i> . Dopo qualche ora, durante le quali avevano preso in considerazione varie vittime potenziali, Manson disse alla Kasabian di guidare fino al <strong>3301 di Waverly Drive</strong>, dove viva il dirigente aziendale <strong>Leno LaBianca</strong>  e sua moglie Rosemary. 
+                            Dopo averli uccisi, le ragazze scrissero messaggi usando il suo sangue. <strong>"Death to Pigs"</strong> ("Morte ai porci") e <strong>"Rise"</strong>  ("Insorgete") furono le scritte che apparvero sulle pareti del soggiorno, mentre <strong>"Healter Skelter"</strong> fu scritto sul frigorifero in cucina.</p>
+                        </li>
+                        <img src="img/sharon_tate_murders.png" alt="I killer di Sharon Tate" title="Rosa Mauro, Public domain, via Wikimedia Commons">
+                        <p class="shadow-text didascalia">Da sinistra, Susan Atkins, Charles Watson & Patricia Krenwinkel, i killer di Sharon Tate</p>
+                        <li><h5>Donald Shea</h5>
+                        <p>Un lavorante e stuntman dello Spahn Ranch, <strong>Donald "Shorty" Shea</strong>, aveva conosciuto Manson in passato e aveva avuto con lui una lite sfociata in una colluttazione. Su ordine di Manson, il <strong>26 agosto 1969</strong> Shea venne condotto con la forza in un luogo isolato del ranch, dove fu ucciso da <strong>Bruce M. Davis</strong> e <strong>Steve "Clem" Grogan</strong>, perché temevano che l'uomo potesse denunciarli alla polizia. Inoltre, Manson lo considerava una sorta di "peccatore" in quanto Shea aveva sposato una donna di colore; e sussisteva la possibilità che fosse al corrente degli omicidi Tate–LaBianca</p>
+                        <p> Il suo cadavere non venne rinvenuto fino al <strong>dicembre 1977</strong>, dopo che Grogan, in carcere, aveva accettato di collaborare con le autorità e indicò agli investigatori dove era stato sepolto.</p>
+                        </li>
+                    </ul>
+                    <p class="shadow-text">Via Wikipedia</p>
+                    <h4 id="Curiosita">Curiosità</h4>
+                    <ul>
+                        <li>
+                            <p>Dopo aver conosciuto Charles Manson, Dennis Wilson, batterista dei Beach Boys, inizialmente colpito dal talento dell'uomo, volle che la sua band includesse una delle sue canzoni nel loro album 20/20 del 1969. 
+                            La canzone, inizialmente intitolata <strong>Cease to exist</strong>, venne poi rielaborata e rinominata <strong>Never Learn Not To Love</strong>, senza riconoscere alcun credito compositivo a Manson, suscitando in lui non poco risentimento (anche se venne remunerato finanziariamente). Inoltre, Manson minacciò di morte Dennis quando scoprì che aveva cambiato il testo della sua canzone. Il collaboratore dei Beach Boys Van Dyke Parks ricordò in merito: <i> «Un giorno, Charles Manson mostrò un proiettile a Dennis, e lui gli chiese: "cos'è questo?". E Manson rispose: "È un proiettile. Ogni volta che lo guardi, voglio che pensi quanto sia bello che i tuoi figli siano ancora sani e salvi"»</i> </p>
+                            <p><strong>Ascolta qui la canzone:</strong></p>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6gjhpFtiZv6PT05XIaIK5Q?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </li>
+                        <li>
+                            <p>Il cantautore e produttore discografico statunitense <strong>Marilyn Manson</strong> ha dichiarato che il suo nome d'arte è stato creato accostando il nome e cognome di due figure iconiche degli Stati Uniti degli anni sessanta, <strong>Marilyn Monroe</strong> e <strong>Charles Manson</strong>, al fine di sottolineare la bizzarra dicotomia della società come una critica e contemporaneamente un elogio nei confronti degli Stati Uniti e della loro cultura.</p>
+                            <p>Tra l'altro, nel 2012 è comparsa online una lettera che Charles Manson avrebbe scritto dal carcere, indirizzata proprio a Marilyn Manson, a cui quest'ultimo però non avrebbe mai risposto.</p>
+                        </li>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img  id="postcard" src="img/manson_postcard.png" alt="Lettera inviata da Charles Manson a Marilyn Manson nel 2012" title="Via mansondirect.com">
+                                <p class="shadow-text didascalia">Lettera inviata da Charles Manson a Marilyn Manson nel 2012, via mansondirect.com</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>
+                                    <i> “Mi ci è voluto molto tempo per arrivare nel luogo dove mi è stato possibile toccare M. Manson. Ora ho una carta da giocare. Puoi informarti sulla mia non-profit ATWA e dare a Manson quello che pensi che (Manson) meriti in cambio di Aria, Alberi, Acqua e in cambio di te stesso. Oppure darò a Manson quello che pensi che Manson si meriti – la musica sa fare di Manson il Diavolo di Abraxas. E sono SICURO che vorresti un po’ di quello che io ho avuto da dove l’ho avuto. È un equilibrio esagerato. Al di là di bene e male, giusto, sbagliato. Quello che non fai è quello che farò io – quello che hai fatto un coro, e lo lasci andare e dici che mi hai risparmiato un sacco di tappe – Non ho bisogno, non è un bisogno o un desiderio. Colpito – colpo. Ballerini fantasma uccidono insieme e tu sei proprio nella mia tomba Sunstroker Corona-coronas-coronae – mi hai visto dal basso con tutto quanto che mi gravava addosso. Ecco due camion della spazzatura che fanno lo stesso di CMF 000007″.</i>
+                                </p>
+
+                            </div>
+                        </div>
+                        
+                    </ul>
+                    <h4>Metadati</h4>
+                    <div class="row div mt-4" id="Metadati">
+                        <div class="col-sm-2">
+                            <p><strong>Nome:</strong></p>
+                            <p><strong>Data di formazione:</strong></p>
+                            <p><strong>Data di scioglimento:</strong></p>
+                            <p><strong>Fondatore:</strong></p>
+                            <p><strong>Luogo di fondazione:</strong></p>
+                            <p><strong>Tematiche:</strong></p>
+                        </div>
+                        <div class="col-sm-10">
+                            <p>Famiglia Manson</p>
+                            <p>1967</p>
+                            <p>1969 (arresto di Manson)</p>
+                            <p>Charles Manson</p>
+                            <p>San Francisco, California, Stati Uniti d'America</p>
+                            <p><i>sette, hippie, comunità, omicidio, droghe, profeti, apocalisse, guerra razziale, famiglia, Bibbia, strage</i></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </body>
+    <section class="text-center bg-dark text-light py-1">
+        <div>
+            <p class="light-link">
+                <a href="credits.html" title="Credits">Credits</a> 
+            </p>
+        </div>
+    </section>
+    <footer class="text-center bg-dark text-light py-1">
+        <p>© Copyright (c) 2023 by /DH.arc - Digital Humanities Advanced Research Centre.</p>
+        <p id="subtitle">Veronica Macellari</p>
+    </footer>
+</html>
